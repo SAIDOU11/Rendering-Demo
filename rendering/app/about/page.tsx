@@ -6,7 +6,7 @@ const About = () => {
   console.log("About client component using 'use client' ");
   return (
     <div className="m-4 h-screen">
-      <h1 className="text-3xl font-bold">About page</h1>
+      <h1 className="text-3xl font-bold">About page -- (HOURS)</h1>
     </div>
   );
 };
