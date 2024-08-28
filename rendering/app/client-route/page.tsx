@@ -1,7 +1,6 @@
 "use client";
 
 import React from "react";
-import clientSideFunction from "@/utils/client-utils";
 import { useTheme } from "@/components/theme-provider";
 
 const ClientRoutePage = () => {
