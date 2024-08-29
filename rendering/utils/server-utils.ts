@@ -1,4 +1,4 @@
-const serverSideFunction = () => {
+const ServerSideFunction = () => {
   console.log(`use multiple librairies,
         user environment variables,
         interact with database,
@@ -6,4 +6,4 @@ const serverSideFunction = () => {
   return "server result";
 };
 
-export default serverSideFunction;
+export default ServerSideFunction;

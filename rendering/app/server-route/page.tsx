@@ -1,10 +1,12 @@
 import "server-only";
-import serverSideFunction from "@/utils/server-utils";
+import ServerSideFunction from "@/utils/server-utils";
+
 import ImageSlider from "@/components/ImageSlider";
 
 function ServerRoutePage() {
   console.log("Server route rendered");
-  const result = serverSideFunction();
+  const result = ServerSideFunction();
+
   return (
     <div
       className="h-screen
