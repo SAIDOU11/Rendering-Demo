@@ -1,5 +1,4 @@
-
-import React, { useState } from "react";
+import React from "react";
 import NavLinks from "./nav-links";
 import NavSearch from "./nav-search";
 

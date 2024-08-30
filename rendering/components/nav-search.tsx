@@ -1,4 +1,6 @@
 "use client";
+// lower in the tree
+
 import React, { useState } from "react";
 
 const NavSearch = () => {
