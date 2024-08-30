@@ -1,9 +1,11 @@
+
 import React, { useState } from "react";
 import NavLinks from "./nav-links";
 import NavSearch from "./nav-search";
 
 const Navbar = () => {
-  const [search, setSearch] = useState("");
+  console.log(`Navbar rendered`);
+
   return (
     <div>
       <NavLinks />
